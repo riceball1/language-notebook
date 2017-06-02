@@ -7,3 +7,12 @@ A notebook for language learning that allows users to store languages, search fo
 * Based on the coding library app
 * Allow users to create a side-by-side comparison chart of different languages
 * See if APIs are available for translators (Yandex/Google Translate/Bing), and Quizlet etc.
+
+## Technologies:
+- React/Redux
+- Mongodb
+- Nodejs/Express
+
+
+## Resources:
+- [React-Starter-Kit](https://github.com/kriasoft/react-starter-kit)

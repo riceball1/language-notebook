@@ -1,0 +1,25 @@
+{
+  "name": "language-notebook",
+  "version": "1.0.0",
+  "description": "A simple web app to study languages",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riceball1/language-notebook.git"
+  },
+  "keywords": [
+    "react",
+    "node/express",
+    "mongodb"
+  ],
+  "author": "Dana Ng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riceball1/language-notebook/issues"
+  },
+  "homepage": "https://github.com/riceball1/language-notebook#readme"
+}
