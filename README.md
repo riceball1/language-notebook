@@ -1,4 +1,4 @@
-# language-notebook
+# Language Learning Notebook
 
 ## Description:
 
@@ -20,3 +20,4 @@ A notebook for language learning to easily store sentences, translate individual
 
 ## Resources:
 - [React-Starter-Kit](https://github.com/kriasoft/react-starter-kit)
+- [Inspirational Idea](https://www.mochithings.com/products/15737)
