@@ -2,11 +2,12 @@
 
 ## Description:
 
-A notebook for language learning that allows users to store languages, search for snippets of languages, and compile multiple languages together.
+A notebook for language learning to easily store sentences, translate individual words or phrases, and to add description/notes on the side. Currently this is based on languages that uses whitespaces, such as Turkish or French.
 
-* Based on the coding library app
-* Allow users to create a side-by-side comparison chart of different languages
-* See if APIs are available for translators (Yandex/Google Translate/Bing), and Quizlet etc.
+## Features:
+- Notes page for adding words/phrases with translation and memos
+- List of Words
+- Deck: Set of flash cards to study
 
 ## Technologies:
 - React/Redux
