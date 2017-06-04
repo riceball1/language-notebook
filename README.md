@@ -4,6 +4,17 @@
 
 A notebook for language learning to easily store sentences, translate individual words or phrases, and to add description/notes on the side. Currently this is based on languages that uses whitespaces, such as Turkish or French.
 
+## Start Up App:
+```
+- Git clone and CD into Language-Notebook 
+- yarn install
+- yarn start
+- Checkout localhost:5000 for app
+
+``` 
+
+
+
 ## Features:
 - Notes page for adding words/phrases with translation and memos
 - List of Words
