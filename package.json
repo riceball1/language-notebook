@@ -6,12 +6,16 @@
     "author": "Dana Ng <ngdana1@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "webpack-dev-server"
+        "start": "node server.js",
+        "server": "webpack-dev-server",
+        "build": "webpack",
+        "dev": "webpack -d --watch",
+        "prod": "webpack -p",
+        "test": "mocha test"
     },
     "dependencies": {
         "css-loader": "^0.28.4",
         "dotenv": "^4.0.0",
-        "html-webpack-plugin": "^2.28.0",
         "node-sass": "^4.5.3",
         "path": "^0.12.7",
         "react": "^15.5.4",
