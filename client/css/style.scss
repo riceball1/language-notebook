@@ -1,0 +1,60 @@
+/** color variables **/
+
+$mint: #6FCF97;
+$orange: #F2994A;
+$gray: #828282;
+$darkgray: #333333;
+$lightgray: #C4C4C4;
+$red: #EB5757;
+$secondary: $mint;
+$main: $darkgray;
+
+/** font family Roboto **/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: $gray;
+    li {
+        float: right;
+        a {
+            display: block;
+            color: $lightgray;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        a:hover:not(.active) {
+            background-color: $mint;
+            color: black;
+        }
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: $darkgray;
+    text-align: center;
+    color: $lightgray;
+}

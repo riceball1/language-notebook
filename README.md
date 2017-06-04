@@ -22,3 +22,4 @@ A notebook for language learning to easily store sentences, translate individual
 - [React-Starter-Kit](https://github.com/kriasoft/react-starter-kit)
 - [Inspirational Idea](https://www.mochithings.com/products/15737)
 - General Set Up [link](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
+- [Redux Saga](https://yarnpkg.com/en/package/redux-saga)

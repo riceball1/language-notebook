@@ -1,15 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+import store from './store';
+import App from './components/App';
 
-// class App extends React.Component {
-// 	render() {
-// 		return (
-// 			<h1>Hello World</h1>
-// 		)
-// 	}
-// }
+require('./css/style.scss');
 
-ReactDOM.render(
-  <h1>Hello, world!!</h1>,
-  document.getElementById('root')
-);
+
+render( <Provider store = { store } >
+    <App/>
+    </Provider>,
+    document.getElementById('root')
+)
