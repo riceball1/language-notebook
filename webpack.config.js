@@ -1,31 +1,23 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
 
-module.export = {
-	entry: {
-		main: path.resolve('client', 'index.js');
-	},
-	output: {
-		path: path.join(__dirname, 'public'),
-		filename: 'bundle.js',
-		publicPath: '/public/'
-	},
-	module: {
-		loaders: [
-		// js
-		{
-			test: /\.js$/,
-			loaders: ['babel'],
-			include: path.join(__dirname, 'public')
-		},// scss
-		{
-			test: /\.scss$/,
-			loader: 'style-loader!css-loader!scss-loader!sass-loader',
-			options: { // de uglify 
-				sourceMap: true
-			}
-			include: path.join(__dirname, 'public')
-		}
-		]
-	}
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+    template: './public/index.html',
+    filename: 'index.html',
+    inject: 'body'
+});
+
+module.exports = {
+    entry: './client/index.js',
+    output: {
+        path: path.resolve('dist'),
+        filename: 'bundle.js'
+    },
+    module: {
+        loaders: [
+            { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
+            { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
+        ]
+    },
+    plugins: [HtmlWebpackPluginConfig]
 }
