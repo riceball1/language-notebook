@@ -9,6 +9,7 @@ const path = require('path');
 const auth = require('./server/routes/auth.js');
 const api = require('./server/routes/api.js');
 
+const { PORT, DATBASE_URL} = require('./server/database.js');
 
 // middleware for parsing data:
 const bodyParser = require('body-parser');
@@ -34,6 +35,6 @@ app.use('/*', (req, res)=> (res.sendFile(path.resolve('public', 'index.html'))))
 
 // start up server
 
-app.listen(5000, (req, res)=> {
+app.listen(port, (req, res)=> {
 	console.log("App running on port 5000");
 });
