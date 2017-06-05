@@ -45,9 +45,11 @@ body, html {
 }
 
 .wrapper {
+    margin-top: 60px;
     padding: 10px;
     margin-bottom: -60px;
     min-height: 100%;
+    color: $lightgray;
 }
 
 footer {
@@ -104,5 +106,7 @@ nav {
 
 
 /** separating the css for distinct pages **/
+@import 'grid';
 @import 'form';
+@import 'notes';
 @import 'landing';
