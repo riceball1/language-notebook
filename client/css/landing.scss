@@ -1,0 +1,18 @@
+.slogan {
+	margin: 10%;
+	border: 10px double $lightgray;
+	text-align: center;
+	font-size: 2em;
+	padding: 5px;
+	color: $lightgray;
+	h1 {
+		color: $orange;
+	}
+	button {
+		background-color: $mint;
+		border: none;
+		border-radius: 2px;
+		font-size: 1em;
+		padding: 10px;
+	}
+}

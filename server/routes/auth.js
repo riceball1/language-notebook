@@ -4,8 +4,8 @@ const router = express.Router();
 const path = require('path');
 
 
-router.get('/notes', (req, res)=> {
-	res.send('Getting Notes');
+router.get('/', (req, res)=> {
+	res.sendFile(path.resolve('public', 'index.html'));
 });
 
 

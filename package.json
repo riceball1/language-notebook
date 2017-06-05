@@ -14,8 +14,11 @@
         "test": "mocha test"
     },
     "dependencies": {
+        "body-parser": "^1.17.2",
         "css-loader": "^0.28.4",
         "dotenv": "^4.0.0",
+        "es6-promise": "^4.1.0",
+        "morgan": "^1.8.2",
         "node-sass": "^4.5.3",
         "path": "^0.12.7",
         "react": "^15.5.4",

@@ -1,0 +1,24 @@
+form {
+	padding: 10px;
+	text-align: center;
+	margin: 60px;
+	font-family: 'Open Sans', sans-serif;
+	color: $lightgray;
+	input {
+		display: block;
+		margin: 10px auto;
+		min-width: 60%;
+		height: 2em;
+		font-size: 2em;
+		border: 1px solid $lightgray;
+	}
+	button {
+		background-color: $mint;
+		border: none;
+		border-radius: 2px;
+		font-size: 1em;
+		padding: 10px;
+		display: block;
+		margin: 10px auto;
+	}
+}

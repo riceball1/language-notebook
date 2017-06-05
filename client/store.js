@@ -4,19 +4,22 @@ import createSagaMiddleware from 'redux-saga';
 // for devTools
 import { composeWithDevTools } from 'redux-devtools-extension';
 
+// import { helloSaga } from './sagas';
 
 import rootReducer from './reducers';
 
 // create the saga middleware
 const sagaMiddleware = createSagaMiddleware()
 
-const store = createStore(rootReducer, composeWithDevTools(
+const store = createStore(
+	rootReducer, 
+	composeWithDevTools(
     applyMiddleware(sagaMiddleware)
 ));
 // use redux-saga instead of thunk for this project
 
 // then run the saga
-// sagaMiddleware.run(mySaga)
+// sagaMiddleware.run(helloSaga);
 
 // render the application
 

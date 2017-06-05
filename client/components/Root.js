@@ -15,15 +15,18 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const Root = () =>  (
  <Router>
-    <div className="wrapper">
-    <Nav></Nav>
+
+ <div className="container">
+<Nav></Nav>
       <Switch>
         <Route exact path="/" component={Landing}/>
         <Route exact path="/login" component={Login}/>
         <Route exact path="/register" component={Register}/>
      </Switch>
+     <div className="push"></div>
      <Footer></Footer>
      </div>
+      
   </Router>
 )
 

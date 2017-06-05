@@ -3,8 +3,12 @@ import Nav from './Nav';
 import Footer from './Footer';
 
 const Landing = () => (
-   <div>
-   <h1>Landing page</h1>
+   <div className="wrapper">
+   <div className="slogan">
+	   	<h1>Language Learning Notebook</h1>
+	   	<p>A simple and useful way to store your language learning notes.</p>
+	   	<button>Learn More</button>
+   </div>
    </div>
 )
 

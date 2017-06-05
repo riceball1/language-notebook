@@ -5,9 +5,9 @@ const Nav = ({match}) => (
     <header> 
     <nav>
         <ul>
-            <li className="nav-brand"><Link to="/">Language Learning Notebook</Link></li>
-            <li><Link to="/login">Login</Link></li>
+            <li className="nav-brand"><Link to="/">LL Notebook</Link></li>
             <li><Link to="/register">Register</Link></li>
+            <li><Link to="/login">Login</Link></li>
         </ul>
         </nav>
     </header>
