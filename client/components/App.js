@@ -1,19 +1,21 @@
-import React from 'react';
-import Footer from './Footer';
-import Nav from './Nav';
+import React, {Component} from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import Root from '../components/Root';
+import Nav from '../components/Nav';
 
-class App extends React.Component {
-    render() {
-        return (
-            <div className="main">
-                <Nav />
-                {this.props.children}
-                <Footer />
-            </div>
+class App extends Component {
+   render() {
+       return (
+          <Root />
+       )
+   }
+}
 
-
-        )
+const mapStateToProps = (state) => {
+    return {
+        user: state.user
     }
 }
 
-export default App;
+export default connect(mapStateToProps)(App);

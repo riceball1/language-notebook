@@ -11,6 +11,11 @@ A notebook for language learning to easily store sentences, translate individual
 - yarn start
 - Checkout localhost:5000 for app
 
+Use webpack-dev-server:
+
+- yarn server
+- Checkout localhost:8000 for app
+
 ``` 
 
 

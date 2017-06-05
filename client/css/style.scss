@@ -20,8 +20,16 @@ body {
     margin: 0;
 }
 
+.test {
+    margin: 40% auto;
+    color: red;
+}
+
 nav {
     background-color: $gray;
+    .nav-brand {
+        float: left;
+    }
     li {
         float: right;
         a {

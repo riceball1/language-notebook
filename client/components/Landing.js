@@ -2,12 +2,10 @@ import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 
-const Main = () => (
+const Landing = () => (
    <div>
-   <Nav />
-   <h1 className="test">Test</h1>
-   <Footer />
+   <h1>Landing page</h1>
    </div>
 )
 
-export default Main;
+export default Landing;
