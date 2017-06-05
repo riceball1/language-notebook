@@ -35,6 +35,6 @@ app.use('/*', (req, res)=> (res.sendFile(path.resolve('public', 'index.html'))))
 
 // start up server
 
-app.listen(port, (req, res)=> {
+app.listen(PORT, (req, res)=> {
 	console.log("App running on port 5000");
 });
